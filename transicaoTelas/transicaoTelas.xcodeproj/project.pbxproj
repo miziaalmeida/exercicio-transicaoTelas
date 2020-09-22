@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19F291C42518EA560019C772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F291C32518EA560019C772 /* AppDelegate.swift */; };
+		19F291C62518EA560019C772 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F291C52518EA560019C772 /* SceneDelegate.swift */; };
+		19F291C82518EA560019C772 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F291C72518EA560019C772 /* ViewController.swift */; };
+		19F291CB2518EA560019C772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F291C92518EA560019C772 /* Main.storyboard */; };
+		19F291CD2518EA590019C772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F291CC2518EA590019C772 /* Assets.xcassets */; };
+		19F291D02518EA590019C772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F291CE2518EA590019C772 /* LaunchScreen.storyboard */; };
+		19F291DA2518EAAE0019C772 /* MyViewOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F291D92518EAAE0019C772 /* MyViewOneViewController.swift */; };
+		19F291DE2518EAC00019C772 /* MyViewOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F291DD2518EABF0019C772 /* MyViewOne.storyboard */; };
+		19F291E22518EC9F0019C772 /* MyViewOneModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F291E12518EC9F0019C772 /* MyViewOneModalViewController.swift */; };
+		19F291E52518ECAC0019C772 /* MyViewOneModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F291E42518ECAC0019C772 /* MyViewOneModal.storyboard */; };
+		19F291E92518EDA40019C772 /* MyViewOnePushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F291E82518EDA40019C772 /* MyViewOnePushedViewController.swift */; };
+		19F291ED2518EDB00019C772 /* MyViewOnePushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F291EC2518EDB00019C772 /* MyViewOnePushed.storyboard */; };
+		19F291F22518F38A0019C772 /* MyViewTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F291F12518F38A0019C772 /* MyViewTwoViewController.swift */; };
+		19F291F62518F3950019C772 /* MyViewTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F291F52518F3950019C772 /* MyViewTwo.storyboard */; };
+		19F291FA2518F3AD0019C772 /* MyViewTwoModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F291F92518F3AD0019C772 /* MyViewTwoModalViewController.swift */; };
+		19F291FE2518F3B70019C772 /* MyViewTwoModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F291FD2518F3B70019C772 /* MyViewTwoModal.storyboard */; };
+		19F292022518F3DE0019C772 /* MyViewTwoPushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F292012518F3DE0019C772 /* MyViewTwoPushedViewController.swift */; };
+		19F292052518F3EF0019C772 /* MyViewTwoPushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F292042518F3EF0019C772 /* MyViewTwoPushed.storyboard */; };
+		19F292092518F4110019C772 /* MyViewThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F292082518F4110019C772 /* MyViewThreeViewController.swift */; };
+		19F2920D2518F41B0019C772 /* MyViewThree.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F2920C2518F41B0019C772 /* MyViewThree.storyboard */; };
+		19F292112518F43B0019C772 /* MyViewThreeModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F292102518F43B0019C772 /* MyViewThreeModalViewController.swift */; };
+		19F292152518F44E0019C772 /* MyViewThreeModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F292142518F44E0019C772 /* MyViewThreeModal.storyboard */; };
+		19F292192518F4670019C772 /* MyViewThreePushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F292182518F4670019C772 /* MyViewThreePushedViewController.swift */; };
+		19F2922325198AF30019C772 /* MyViewThreePushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F2922225198AF30019C772 /* MyViewThreePushed.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19F291C02518EA560019C772 /* transicaoTelas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transicaoTelas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19F291C32518EA560019C772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19F291C52518EA560019C772 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		19F291C72518EA560019C772 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19F291CA2518EA560019C772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19F291CC2518EA590019C772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19F291CF2518EA590019C772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19F291D12518EA590019C772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F291D92518EAAE0019C772 /* MyViewOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewOneViewController.swift; sourceTree = "<group>"; };
+		19F291DD2518EABF0019C772 /* MyViewOne.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewOne.storyboard; sourceTree = "<group>"; };
+		19F291E12518EC9F0019C772 /* MyViewOneModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewOneModalViewController.swift; sourceTree = "<group>"; };
+		19F291E42518ECAC0019C772 /* MyViewOneModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewOneModal.storyboard; sourceTree = "<group>"; };
+		19F291E82518EDA40019C772 /* MyViewOnePushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewOnePushedViewController.swift; sourceTree = "<group>"; };
+		19F291EC2518EDB00019C772 /* MyViewOnePushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewOnePushed.storyboard; sourceTree = "<group>"; };
+		19F291F12518F38A0019C772 /* MyViewTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoViewController.swift; sourceTree = "<group>"; };
+		19F291F52518F3950019C772 /* MyViewTwo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwo.storyboard; sourceTree = "<group>"; };
+		19F291F92518F3AD0019C772 /* MyViewTwoModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoModalViewController.swift; sourceTree = "<group>"; };
+		19F291FD2518F3B70019C772 /* MyViewTwoModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwoModal.storyboard; sourceTree = "<group>"; };
+		19F292012518F3DE0019C772 /* MyViewTwoPushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoPushedViewController.swift; sourceTree = "<group>"; };
+		19F292042518F3EF0019C772 /* MyViewTwoPushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwoPushed.storyboard; sourceTree = "<group>"; };
+		19F292082518F4110019C772 /* MyViewThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewThreeViewController.swift; sourceTree = "<group>"; };
+		19F2920C2518F41B0019C772 /* MyViewThree.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewThree.storyboard; sourceTree = "<group>"; };
+		19F292102518F43B0019C772 /* MyViewThreeModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewThreeModalViewController.swift; sourceTree = "<group>"; };
+		19F292142518F44E0019C772 /* MyViewThreeModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewThreeModal.storyboard; sourceTree = "<group>"; };
+		19F292182518F4670019C772 /* MyViewThreePushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewThreePushedViewController.swift; sourceTree = "<group>"; };
+		19F2922225198AF30019C772 /* MyViewThreePushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewThreePushed.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19F291BD2518EA560019C772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19F291B72518EA560019C772 = {
+			isa = PBXGroup;
+			children = (
+				19F291C22518EA560019C772 /* transicaoTelas */,
+				19F291C12518EA560019C772 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19F291C12518EA560019C772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19F291C02518EA560019C772 /* transicaoTelas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19F291C22518EA560019C772 /* transicaoTelas */ = {
+			isa = PBXGroup;
+			children = (
+				19F291C32518EA560019C772 /* AppDelegate.swift */,
+				19F291C52518EA560019C772 /* SceneDelegate.swift */,
+				19F291C72518EA560019C772 /* ViewController.swift */,
+				19F291C92518EA560019C772 /* Main.storyboard */,
+				19F291CE2518EA590019C772 /* LaunchScreen.storyboard */,
+				19F291CC2518EA590019C772 /* Assets.xcassets */,
+				19F291D12518EA590019C772 /* Info.plist */,
+				19F292172518F4530019C772 /* MyViewThreePushed */,
+				19F2920F2518F4280019C772 /* MyViewThreeModal */,
+				19F292072518F3FE0019C772 /* MyViewThree */,
+				19F292002518F3C80019C772 /* MyViewTwoPushed */,
+				19F291F82518F39E0019C772 /* MyViewTwoModal */,
+				19F291F02518F3740019C772 /* MyViewTwo */,
+				19F291E72518ED880019C772 /* MyViewOnePushed */,
+				19F291E02518EC860019C772 /* MyViewOneModal */,
+				19F291D82518EA620019C772 /* MyViewOne */,
+			);
+			path = transicaoTelas;
+			sourceTree = "<group>";
+		};
+		19F291D82518EA620019C772 /* MyViewOne */ = {
+			isa = PBXGroup;
+			children = (
+				19F291D92518EAAE0019C772 /* MyViewOneViewController.swift */,
+				19F291DD2518EABF0019C772 /* MyViewOne.storyboard */,
+			);
+			path = MyViewOne;
+			sourceTree = "<group>";
+		};
+		19F291E02518EC860019C772 /* MyViewOneModal */ = {
+			isa = PBXGroup;
+			children = (
+				19F291E12518EC9F0019C772 /* MyViewOneModalViewController.swift */,
+				19F291E42518ECAC0019C772 /* MyViewOneModal.storyboard */,
+			);
+			path = MyViewOneModal;
+			sourceTree = "<group>";
+		};
+		19F291E72518ED880019C772 /* MyViewOnePushed */ = {
+			isa = PBXGroup;
+			children = (
+				19F291E82518EDA40019C772 /* MyViewOnePushedViewController.swift */,
+				19F291EC2518EDB00019C772 /* MyViewOnePushed.storyboard */,
+			);
+			path = MyViewOnePushed;
+			sourceTree = "<group>";
+		};
+		19F291F02518F3740019C772 /* MyViewTwo */ = {
+			isa = PBXGroup;
+			children = (
+				19F291F12518F38A0019C772 /* MyViewTwoViewController.swift */,
+				19F291F52518F3950019C772 /* MyViewTwo.storyboard */,
+			);
+			path = MyViewTwo;
+			sourceTree = "<group>";
+		};
+		19F291F82518F39E0019C772 /* MyViewTwoModal */ = {
+			isa = PBXGroup;
+			children = (
+				19F291F92518F3AD0019C772 /* MyViewTwoModalViewController.swift */,
+				19F291FD2518F3B70019C772 /* MyViewTwoModal.storyboard */,
+			);
+			path = MyViewTwoModal;
+			sourceTree = "<group>";
+		};
+		19F292002518F3C80019C772 /* MyViewTwoPushed */ = {
+			isa = PBXGroup;
+			children = (
+				19F292012518F3DE0019C772 /* MyViewTwoPushedViewController.swift */,
+				19F292042518F3EF0019C772 /* MyViewTwoPushed.storyboard */,
+			);
+			path = MyViewTwoPushed;
+			sourceTree = "<group>";
+		};
+		19F292072518F3FE0019C772 /* MyViewThree */ = {
+			isa = PBXGroup;
+			children = (
+				19F292082518F4110019C772 /* MyViewThreeViewController.swift */,
+				19F2920C2518F41B0019C772 /* MyViewThree.storyboard */,
+			);
+			path = MyViewThree;
+			sourceTree = "<group>";
+		};
+		19F2920F2518F4280019C772 /* MyViewThreeModal */ = {
+			isa = PBXGroup;
+			children = (
+				19F292102518F43B0019C772 /* MyViewThreeModalViewController.swift */,
+				19F292142518F44E0019C772 /* MyViewThreeModal.storyboard */,
+			);
+			path = MyViewThreeModal;
+			sourceTree = "<group>";
+		};
+		19F292172518F4530019C772 /* MyViewThreePushed */ = {
+			isa = PBXGroup;
+			children = (
+				19F292182518F4670019C772 /* MyViewThreePushedViewController.swift */,
+				19F2922225198AF30019C772 /* MyViewThreePushed.storyboard */,
+			);
+			path = MyViewThreePushed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19F291BF2518EA560019C772 /* transicaoTelas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19F291D42518EA590019C772 /* Build configuration list for PBXNativeTarget "transicaoTelas" */;
+			buildPhases = (
+				19F291BC2518EA560019C772 /* Sources */,
+				19F291BD2518EA560019C772 /* Frameworks */,
+				19F291BE2518EA560019C772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = transicaoTelas;
+			productName = transicaoTelas;
+			productReference = 19F291C02518EA560019C772 /* transicaoTelas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19F291B82518EA560019C772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					19F291BF2518EA560019C772 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 19F291BB2518EA560019C772 /* Build configuration list for PBXProject "transicaoTelas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19F291B72518EA560019C772;
+			productRefGroup = 19F291C12518EA560019C772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19F291BF2518EA560019C772 /* transicaoTelas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19F291BE2518EA560019C772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F291FE2518F3B70019C772 /* MyViewTwoModal.storyboard in Resources */,
+				19F291E52518ECAC0019C772 /* MyViewOneModal.storyboard in Resources */,
+				19F291F62518F3950019C772 /* MyViewTwo.storyboard in Resources */,
+				19F291D02518EA590019C772 /* LaunchScreen.storyboard in Resources */,
+				19F292052518F3EF0019C772 /* MyViewTwoPushed.storyboard in Resources */,
+				19F2922325198AF30019C772 /* MyViewThreePushed.storyboard in Resources */,
+				19F291CD2518EA590019C772 /* Assets.xcassets in Resources */,
+				19F2920D2518F41B0019C772 /* MyViewThree.storyboard in Resources */,
+				19F292152518F44E0019C772 /* MyViewThreeModal.storyboard in Resources */,
+				19F291DE2518EAC00019C772 /* MyViewOne.storyboard in Resources */,
+				19F291CB2518EA560019C772 /* Main.storyboard in Resources */,
+				19F291ED2518EDB00019C772 /* MyViewOnePushed.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19F291BC2518EA560019C772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F291C82518EA560019C772 /* ViewController.swift in Sources */,
+				19F291E92518EDA40019C772 /* MyViewOnePushedViewController.swift in Sources */,
+				19F291C42518EA560019C772 /* AppDelegate.swift in Sources */,
+				19F291E22518EC9F0019C772 /* MyViewOneModalViewController.swift in Sources */,
+				19F291FA2518F3AD0019C772 /* MyViewTwoModalViewController.swift in Sources */,
+				19F291F22518F38A0019C772 /* MyViewTwoViewController.swift in Sources */,
+				19F292092518F4110019C772 /* MyViewThreeViewController.swift in Sources */,
+				19F292022518F3DE0019C772 /* MyViewTwoPushedViewController.swift in Sources */,
+				19F292112518F43B0019C772 /* MyViewThreeModalViewController.swift in Sources */,
+				19F292192518F4670019C772 /* MyViewThreePushedViewController.swift in Sources */,
+				19F291DA2518EAAE0019C772 /* MyViewOneViewController.swift in Sources */,
+				19F291C62518EA560019C772 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19F291C92518EA560019C772 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19F291CA2518EA560019C772 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19F291CE2518EA590019C772 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19F291CF2518EA590019C772 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19F291D22518EA590019C772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19F291D32518EA590019C772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19F291D52518EA590019C772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = transicaoTelas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mizialmeida.transicaoTelas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19F291D62518EA590019C772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = transicaoTelas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mizialmeida.transicaoTelas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19F291BB2518EA560019C772 /* Build configuration list for PBXProject "transicaoTelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F291D22518EA590019C772 /* Debug */,
+				19F291D32518EA590019C772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19F291D42518EA590019C772 /* Build configuration list for PBXNativeTarget "transicaoTelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F291D52518EA590019C772 /* Debug */,
+				19F291D62518EA590019C772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19F291B82518EA560019C772 /* Project object */;
+}
